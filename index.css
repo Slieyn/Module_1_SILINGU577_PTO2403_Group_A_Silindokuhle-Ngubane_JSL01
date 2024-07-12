@@ -37,13 +37,35 @@ button:hover {
 }
 
 .valid {
-    color: #008000;
+    background-color: #008000;
+    border-radius: 50%;
+    display: inline-block;
 }
 
 .invalid {
-    color: #ff4500;
-}
+    background-color: #ff4500;
+    border-radius: 50%;
+    display: inline-block;
+
+ 
+} 
+
 
 .emoji {
     font-size: 1.5em;
+}
+.circle {  /*Circle alert*/
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+}
+.valid {
+    background-color: green;
+   
+}
+.invalid {
+    background-color: red;
+   
 }
